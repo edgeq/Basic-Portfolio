@@ -20,21 +20,21 @@ body {
   overflow: auto;
   color: #fff;
   background: #fff;
-  border-bottom: 2px solid #ccc;
+  /*border-bottom: 2px solid #ccc;*/
 }
 
 #logo {
   float: left;
-  width: 300px;
+  width: 650px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  color: #777;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #fff;
 }
 
 nav {
@@ -86,7 +86,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #007AB9;
 }
 
 h1 {
@@ -103,7 +103,9 @@ h3 {
 
 
 
-/* footer */
+/* footer 
+Made a "sticky footer."*/
+
 
 footer {
   padding: 30px 0;
@@ -113,7 +115,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #007AB9;
   position: relative;
   bottom: 0;
   
@@ -199,7 +201,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #007AB9;
   border-bottom: 0;
 }
 
@@ -247,7 +249,7 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #007AB9;
   border: 0 none;
 }
 
