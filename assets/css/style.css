@@ -75,6 +75,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+
 }
 
 p:last-child {
@@ -176,19 +177,24 @@ h3,
 .work {
   position: relative;
   float: left;
+  padding-top: 5px;
+  margin-right: 40px;
   width: 274px;
-  margin: 20px 0 25px;
+  margin: 20px 5px 25px;
   overflow: auto;
 }
 
+/*
 .work:nth-child(even) {
   margin-right: 40px;
 }
+*/
 
 .work img {
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+
 }
 
 .work h3 {
@@ -251,7 +257,13 @@ input[type=submit] {
   cursor: pointer;
   background: #777;
   border: 0 none;
+
 }
+
+input[type=submit]:hover {
+  background-color: #FFA502
+}
+
 
 .lightwidget-widget {
   width: 100%; 
