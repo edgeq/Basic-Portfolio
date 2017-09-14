@@ -86,7 +86,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #007AB9;
+  color: #777;
 }
 
 h1 {
@@ -115,7 +115,7 @@ footer {
   color: #ccc;
   text-align: center;
   background: #666;
-  border-top: 8px solid #007AB9;
+  border-top: 8px solid #777;
   position: relative;
   bottom: 0;
   
@@ -201,7 +201,7 @@ h3,
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #007AB9;
+  background: #777;
   border-bottom: 0;
 }
 
@@ -249,12 +249,12 @@ input[type=submit] {
   font-size: 18px;
   color: #fff;
   cursor: pointer;
-  background: #007AB9;
+  background: #777;
   border: 0 none;
 }
 
 .lightwidget-widget {
   width: 100%; 
   border: 0; 
-  overflow: auto;>
+  overflow: auto;
   } 
