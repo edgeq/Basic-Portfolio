@@ -37,6 +37,10 @@ body {
   background: #fff;
 }
 
+#logo:hover {
+  color: #007AB9;
+}
+
 nav {
   float: right;
   margin-top: 25px;
